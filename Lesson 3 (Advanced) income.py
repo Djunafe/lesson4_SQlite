@@ -1,3 +1,5 @@
+"""Измените таблицу так, чтобы можно было добавить не только расходы, а и доходы"""
+
 import sqlite3 as sq
 
 with sq.connect("my_list.db") as con:
